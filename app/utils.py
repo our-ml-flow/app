@@ -21,10 +21,6 @@ async def load_user_base_data():
     return data
 
 def load_pyfunc_model(model_name: str):
-    mlflow.set_tracking_uri('http://localhost:5000')
-    
-    # mlflow.pyfunc.get_model_dependencies(logged_model)
-    
     loaded_model = mlflow.pyfunc.load_model(f"models:/{model_name}/Production")    
 
     loaded_model =loaded_model.unwrap_python_model()
