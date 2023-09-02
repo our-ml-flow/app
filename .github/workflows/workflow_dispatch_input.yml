@@ -8,16 +8,6 @@ on:
         required: true
         default: 'app'
         
-      deploy_path:
-        description: 'Input path to deploy to'
-        required: true
-        default: 'flow/'
-
-      deploy_file:
-        description: 'Input file to deploy to'
-        required: true
-        default: ''
-
       docker_tag:
         description: 'Input dockerfile tag to deploy to'
         required: true
