@@ -11,9 +11,6 @@
 - Closed | Fixed: #
 - See also: #
 
-## Reviewer
-- 리뷰어
-
 ## Assignee
 - 담당자
 
