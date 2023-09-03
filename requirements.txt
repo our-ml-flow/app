@@ -85,9 +85,6 @@ pexpect==4.8.0
 Pillow==10.0.0
 pkginfo==1.9.6
 platformdirs==3.10.0
-poetry==1.6.1
-poetry-core==1.7.0
-poetry-plugin-export==1.5.0
 prefect==2.12.1
 prefect-sqlalchemy==0.2.4
 protobuf==4.24.2
