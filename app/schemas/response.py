@@ -2,5 +2,5 @@ from pydantic import BaseModel
 from typing import List
 
 
-class ResponseModel(BaseModel): #모델 실행 후 결과값
+class ResponseModel(BaseModel):
     recommendations: List[str]

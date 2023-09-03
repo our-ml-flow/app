@@ -12,7 +12,7 @@ from surprise import Reader, Dataset
 def load_svd_model():
     mlflow.set_tracking_uri('http://localhost:5000')
 
-    model_name = "recsys_svd"
+    model_name = "svd_model"
     svd_model = mlflow.sklearn.load_model(f'models:/{model_name}/Production')
     return svd_model
 
