@@ -4,6 +4,6 @@ WORKDIR /home/runner/work/app/app
 
 COPY . .
 
-RUN pip install -r requirement.txt
+RUN pip install -r requirements.txt
 
 CMD ["bash", "run.sh"]
