@@ -1,3 +1,3 @@
 prefect cloud login --key "$PREFECT_API" --workspace "$WORK_SPACE"
 
-uvicorn app.main:app --reload
+uvicorn main:app --reload

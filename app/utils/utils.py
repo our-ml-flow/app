@@ -73,9 +73,9 @@ def full_dataset_for_test(collections):
 
 
 #전체 프로세스 진행
-def get_recommendations(collections):
+def get_recommendations(model, collections):
     dataset = full_dataset_for_test(collections)
-    svd_model = load_svd_model() 
+    svd_model = model 
     prediction = svd_model.test(dataset)
     
     # 해당 사용자의 예측값만 필터링
